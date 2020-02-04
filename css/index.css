@@ -1,0 +1,249 @@
+body,
+div,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@font-face {
+	font-family: "avenir_light";
+	src: url("font/avernir_light.ttf");
+}
+
+@font-face {
+	font-family: "avenir_oblique";
+	src: url("font/avenir_oblique.ttf");
+}
+
+@font-face {
+	font-family: "avenir_black";
+	src: url("font/avenir_black.ttf");
+}
+
+@font-face {
+	font-family: "avenir_book";
+	src: url("font/avenir_book.ttf");
+}
+
+@font-face {
+	font-family: "Rockwell";
+	src: url("font/Rockwell.otf");
+}
+
+@font-face {
+	font-family: "baskervilleitalic";
+	src: url("font/baskervilleitalic.ttf");
+}
+
+body {
+	background-image: url(../img/background.png);
+	background-size: 105% 105%;
+}
+
+.shining {
+	animation: blink 5s linear infinite;
+}
+
+.box {
+	width: 100%;
+}
+
+.box1 {
+	height: 770px;
+}
+
+.box1 p {
+	font-family: "Rockwell";
+	font-size: 50px;
+	width: 400px;
+	margin-left: 70px;
+	margin-top: 60px;
+}
+
+.box2 {
+	height: 550px;
+}
+
+.box2b {
+	float: right;
+}
+
+.p1 {
+	width: 800px;
+	font-family: "baskervilleitalic";
+	font-size: 40px;
+	margin-right: 70px;
+	text-align: right;
+}
+
+.p2 {
+	float: right;
+	margin-top: 30px;
+	width: 500px;
+	font-family: "baskervilleitalic";
+	font-size: 40px;
+	text-align: right;
+	margin-right: 60px;
+}
+
+.box3 {
+	height: 1600px;
+	margin-bottom: 500px;
+}
+
+.box3 p {
+	margin-left: 70px;
+	margin-right: 70px;
+	font-family: "avenir_book";
+	font-size: 90px;
+	text-align: center;
+	letter-spacing: 1.5rem;
+}
+
+.box4 {
+	width: 100%;
+	height: 160px;
+}
+
+.box4b {
+	width: 750px;
+	float: right;
+	height: 160px;
+	margin-right: 70px;
+	font-family: "baskervilleitalic";
+	font-size: 40px;
+	text-align: right;
+}
+
+.box4 p {}
+
+.box5 {
+	z-index: 100;
+	height: 1620px;
+	position: relative;
+}
+
+.box5 p {
+
+	margin-left: 70px;
+	margin-right: 70px;
+	font-family: "avenir_book";
+	font-size: 90px;
+	word-break: break-all;
+}
+
+.box6 {
+	font-family: "baskervilleitalic";
+	font-size: 50px;
+	height: 200px;
+}
+
+.box6 p {
+	width: 600px;
+	margin-left: 70px;
+	margin-top:-300px;
+}
+
+.box7 {
+	font-family: "Rockwell";
+	font-size: 60px;
+	height: 600px;
+}
+
+.box7 p {
+	margin-left: 70px;
+	width: 500px;
+	word-break: break-all;
+}
+
+.box8 {
+	height: 280px;
+	margin-top: 500px;
+}
+
+.box8 p {
+	font-family: "avenir_book";
+	font-size: 65px;
+	margin-left: -70px;
+	width: 1400px;
+	letter-spacing: 2rem;
+	word-break: break-all;
+}
+
+.box9 {
+	width: 100%;
+	height: 160px;
+}
+
+.box9b {
+	float: right;
+	font-family: "baskervilleitalic";
+	font-size: 55px;
+	text-align: right;
+
+}
+
+.box9b p {
+	width: 700px;
+}
+
+.box10 {
+	font-family: "Rockwell";
+	font-size: 90px;
+	margin-left: -70px;
+	height: 365px;
+}
+
+.box11 {
+	height: 1800px;
+}
+
+.box11b {
+	width: 1300px;
+	float: right;
+}
+
+.box11 p {
+	font-family: "Rockwell";
+	text-align: right;
+}
+
+.box12 {
+	clear: both;
+	height: 450px;
+}
+
+.p3 {
+	font-size: 75px;
+}
+
+.p4 {
+	font-size: 65px;
+	letter-spacing: 2rem;
+}
+
+.red {
+	transition: all 0.6s;
+}
+
+.red:hover {
+	transform: scale(1.2);
+}
+
+.box12 p {
+	margin-left: 70px;
+	font-size: 20px;
+	font-family: "avenir_book";
+	margin-top: 20px;
+	font-weight: bold;
+}
